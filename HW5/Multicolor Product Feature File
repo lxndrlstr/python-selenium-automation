@@ -1,0 +1,7 @@
+# Created by jalex at 10/18/2022
+
+  Feature: Tests for multicolored product page
+
+  Scenario: User can select colors
+    Given Open Amazon product B096VHB8MK page
+    Then Verify user can click through colors
